@@ -2,8 +2,8 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/lq4iv36g9c1r/public_html/another.comoleermicartaastral.com
- #rsync -a source/ destination
- - /bin/cp -a /public/. $DEPLOYPATH
+ # copy a single file from root
+ - /bin/cp index.html
  # copies folders subcontents
  - /bin/cp -r public/. $DEPLOYPATH
  # copies entire folder: 
