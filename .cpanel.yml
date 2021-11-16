@@ -2,4 +2,6 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/lq4iv36g9c1r/public_html/another.comoleermicartaastral.com
+ - export OTHERPATH=/home/lq4iv36g9c1r/public_html/test.comoleermicartaastral.com
  - /bin/cp -r ~/public/. $DEPLOYPATH
+ - /bin/cp -r ~/public/. $OTHERPATH
