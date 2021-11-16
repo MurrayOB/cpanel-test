@@ -2,5 +2,6 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/lq4iv36g9c1r/public_html/another.comoleermicartaastral.com
+ #rsync -a source/ destination
  - /bin/cp -a /public/. $DEPLOYPATH
- 
+ - /bin/chmod +x $DEPLOYPATH/public
